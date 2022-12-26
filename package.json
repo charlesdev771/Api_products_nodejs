@@ -1,0 +1,17 @@
+{
+  "name": "api_products",
+  "version": "1.0.0",
+  "description": "Api products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 7777"
+  },
+  "author": "ccod",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.1",
+    "nodemon": "^2.0.20"
+  }
+}
